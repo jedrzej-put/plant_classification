@@ -1,0 +1,38 @@
+#Hyperparameters
+batch_size: 32
+image_size: 512 
+epochs: 100
+learning_rate: 0.001
+channels: [32, 64, 128, 256]
+
+#Scheduler parameters
+early_stopping_patience: 30
+# reduce_lr_factor: 0.5
+# reduce_lr_patience: 4
+
+reduce_lr_factor: 0.4
+reduce_lr_patience: 8
+
+
+#Transformations
+patch_size: 256
+equalize_hist: True
+crop_scale: 1.2
+
+#Data path
+
+experiment_name: test_experiment
+healthy_data_path: ./data/healthy
+sick_data_path: ./data/sick
+
+
+
+#Tensorboard and MLflow
+experiment: app_name
+
+mlflow: False
+mlflow_params:
+  test: Test
+seed: 0
+shuffle: False
+tensorboard: True
