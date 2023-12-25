@@ -121,9 +121,22 @@ Open http://localhost:6006/
 
 ## Results
 
+### Accuracy
+
+<img src="https://github.com/jedrzej-put/plant_classification/blob/main/plots/accuracy.jpg" width="800" height="300"  title="xD">
+
+### Precision
+
+<img src="https://github.com/jedrzej-put/plant_classification/blob/main/plots/precision.JPG" width="800" height="300"  title="xD">
+
 ### Recall
 
-## Results
+<img src="https://github.com/jedrzej-put/plant_classification/blob/main/plots/recall.jpg" width="800" height="300"  title="xD">
 
-<img src="https://github.com/jedrzej-put/plant_classification/blob/main/plots/recall.jpg" width="800" height="400"  title="xD">
+### F1 score
 
+<img src="https://github.com/jedrzej-put/plant_classification/blob/main/plots/f1.JPG" width="800" height="300"  title="xD">
+
+### Loss
+
+<img src="https://github.com/jedrzej-put/plant_classification/blob/main/plots/loss.JPG" width="800" height="300"  title="xD">
