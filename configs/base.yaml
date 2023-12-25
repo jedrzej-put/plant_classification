@@ -16,7 +16,6 @@ reduce_lr_patience: 8
 
 #Transformations
 patch_size: 256
-equalize_hist: True
 crop_scale: 1.2
 
 #Data path
