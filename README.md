@@ -1,8 +1,27 @@
 # Plant classification with Convolution Neural Network
 
+1. [Usage](#usage)
+
+   - [Instalation](#instlation)
+   - [Prepare data](#prepare-data)
+   - [Configuration](#configuration)
+   - [Train model](#train-model)
+   - [Display results](#display-results)
+
+2. [Technology](#technology)
+3. [Data](#data)
+4. [Tasks](#tasks)
+5. [Problems](#problems)
+6. [Classifiaction](#classifiaction)
+7. [Results](#results)
+
 ## Usage
 
 ### Instalation
+
+Install python (https://www.python.org/downloads/)
+
+If you have GPU, you can install CUDA (https://developer.nvidia.com/cuda-downloads)
 
 ```
 git clone https://github.com/jedrzej-put/plant_classification.git
@@ -12,7 +31,7 @@ python -m venv venv
 pip install requirements.txt
 ```
 
-### Data
+### Prepare data
 
 First way:
 
